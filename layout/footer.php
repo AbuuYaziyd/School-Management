@@ -3,7 +3,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center">
-              &copy; <?php echo date("Y") ?> Biprodas Roy, All right reserved. powered by <a href="">Utshab Technology Ltd.</a>
+              &copy; <?php echo date("Y") ?> Biprodas Roy, All right reserved. powered by <a href="http://www.utshabtech.com/">Utshab Technology Ltd.</a>
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
@@ -42,7 +42,16 @@
     <script src="./assets/libs/flot/jquery.flot.crosshair.js"></script>
     <script src="./assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
     <script src="./dist/js/pages/chart/chart-page-init.js"></script>
-
+    <script src="./assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+          
+    <script>
+    jQuery('#mydatepicker').datepicker({
+      format: 'dd/mm/yyyy',
+      autoclose: true,
+      todayHighlight: true
+    });
+    </script>
 </body>
 
 </html>
+
