@@ -9,7 +9,7 @@
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Students </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
                                 <li class="sidebar-item"><a href="./student_form.php" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> New Admission </span></a></li>
-                                <li class="sidebar-item"><a href="./student_info.php" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Student Info </span></a></li>
+                                <li class="sidebar-item"><a href="./students.php" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Students </span></a></li>
                             </ul>
                         </li>
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-account-key"></i><span class="hide-menu">Authentication </span></a>

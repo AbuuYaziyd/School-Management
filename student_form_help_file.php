@@ -112,12 +112,22 @@
       // set the PDO error mode to exception
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       // Query Statement
-      $sql = "INSERT INTO admission_form
-      (first_name, last_name)
-      VALUES ('$firstName', '$lastName')";
-      // use exec() because no results are returned
-      $conn->exec($sql);
-      echo "New record created successfully";
+      
+      if (isset($_POST["firstName"]) && isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["class"]) && isset($POST["Password"])){
+
+        $sql = "INSERT INTO admission_form
+        (first_name, last_name)
+        VALUES ('$firstName', '$lastName')";
+        // use exec() because no results are returned
+        $conn->exec($sql);
+        echo "New record created successfully";
+
+
+
+      }
+      
+      
+     
     }
     catch(PDOException $e){
         echo $sql . "<br>" . $e->getMessage();
